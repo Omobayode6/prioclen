@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  border: none !important;
+  background-image: none;
+  color: #ff6f47;
+  cursor: pointer;
+  width: 12rem;
+  font-size: 16px;
+  padding: 6px;
+}
+.select {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #ff6f47;
+  cursor: pointer;
+  pointer-events: none;
+  border-radius: 0 8px 8px 0;
+}
+.filter-todo {
+  padding: 1rem;
+  border-radius: 8px;
+}
