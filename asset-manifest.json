@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prioclen/static/css/main.fb72ec57.css",
+    "main.js": "/prioclen/static/js/main.6e171a5c.js",
+    "index.html": "/prioclen/index.html",
+    "main.fb72ec57.css.map": "/prioclen/static/css/main.fb72ec57.css.map",
+    "main.6e171a5c.js.map": "/prioclen/static/js/main.6e171a5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb72ec57.css",
+    "static/js/main.6e171a5c.js"
+  ]
+}
